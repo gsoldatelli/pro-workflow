@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<button id="botao">Botão Log</button>
+
+	<script>
+		var button = document.getElementById('botao');
+
+		function sendLog(msg) {
+			var beacon = document.createElement('img');
+			beacon.src = 'http://localhost:8080/logge/?message=' + encodeURIComponent(msg);
+			beacon.style.display = 'none';
+
+
+			document.body.appendChild(beacon);
+		}
+
+
+		function logMessage(msg, send) {
+			console.log(msg);
+
+			if(send)
+			{
+				sendLog(msg);
+			}
+		}
+
+
+		button.addEventListener('click', function() {
+			logMessage('Botão foi clicado',true);
+		});
+	</script>
+</body>
+</html>

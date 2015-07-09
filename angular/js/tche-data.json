@@ -1,0 +1,27 @@
+[
+  {
+    "name":"Artroll",
+    "shortname":"artroll",
+    "reknown":"Solis - Mto loco",
+    "bio":"Artroll fazendo mta treta com tretaTechs"
+  },
+  {
+    "name":"Moila",
+    "shortname":"moila",
+    "reknown":"Mr. M",
+    "bio":"Top desenvolvedor na Solar"
+  },
+  {
+    "name":"Brunalf",
+    "shortname":"brunalf",
+    "reknown":"Simplesmente Brunalf",
+    "bio":"O mais normal do ex-funcionários da Solis, grande carreira."
+  },
+  {
+    "name":"Guimmy",
+    "shortname":"guimmy",
+    "reknown":"Vereador de merda, da oi pra todo mundo.",
+    "bio":"O mais fracassado dos ex-funcionários da Solis. Carreira em UTI e Cortador de grama."
+  }  
+
+]
